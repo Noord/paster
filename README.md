@@ -15,8 +15,8 @@ Usage:
 
 ```sh
 #to upload file
-> cat file | curl -s -H "APIKEY:pass" -X POST --data-binary @- http://localhost:8080/
+> cat file | curl -s -H "APIKEY:pass" -X POST --data-binary @- host/
 host/7UJM
 # to read file
-> curl -s http://host/7UJM
+> curl -s host/7UJM
 ```
