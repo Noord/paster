@@ -1,2 +1,4 @@
 *.iml
 .idea/
+pastes/
+cred.local.php.inc
