@@ -6,6 +6,7 @@ Doesn't check mimetypes or anything else. Which is not suitable for  public netw
 
 ```sh
 # to initialize
+mkdir pastes
 cp cred.php.inc cred.local.php.inc
 vim cred.local.php.inc # add your user tokens
 ```
